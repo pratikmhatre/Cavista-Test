@@ -13,6 +13,7 @@ class ImagesResponse {
         class Image {
             var id: String? = null
             var link: String? = null
+            var title: String? = null
         }
     }
 }

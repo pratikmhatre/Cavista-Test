@@ -1,4 +1,4 @@
-package com.example.cavista_test.listing
+package com.example.cavista_test.screens.listing
 
 import androidx.lifecycle.ViewModel
 import androidx.lifecycle.ViewModelProvider

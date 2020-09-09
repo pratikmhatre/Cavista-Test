@@ -7,7 +7,7 @@
 
         <variable
             name="imageListActivity"
-            type="com.example.cavista_test.listing.ImageListingActivity" />
+            type="com.example.cavista_test.screens.listing.ImageListingActivity" />
     </data>
 
     <androidx.constraintlayout.widget.ConstraintLayout
@@ -45,7 +45,12 @@
                     android:layout_marginStart="16dp"
                     android:layout_marginEnd="16dp"
                     android:layout_weight="8"
-                    android:digits="0123456789abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ"
+                    android:textColor="#000"
+                    android:inputType="text"
+                    android:maxLines="1"
+                    android:hint="Search image"
+                    android:imeOptions="actionDone"
+                    android:digits="0123456789abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ "
                     app:backgroundTint="@android:color/white" />
 
                 <ImageView
